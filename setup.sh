@@ -1,13 +1,13 @@
-mkdir -p ~.streamlit
+mkdir -p ~/.streamlit/
 
-echo 
-[general]n
-email = shiva.jabarnia@mg.thedataincubator.com
-  ~.streamlitcredentials.toml
+echo "\
+[general]\n\
+email = \"michaelc@thedataincubator.com\"\n\
+" > ~/.streamlit/credentials.toml
 
-echo 
-[server]n
-headless = truen
-enableCORS=falsen
-port = $PORTn
-  ~.streamlitconfig.toml
+echo "\
+[server]\n\
+headless = true\n\
+enableCORS=false\n\
+port = $PORT\n\
+" > ~/.streamlit/config.toml
