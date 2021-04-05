@@ -7,7 +7,6 @@ import yfinance as yf
 import matplotlib.pyplot as plt
 from bokeh.plotting import figure
 from bokeh.models import ColumnDataSource
-import holoviews as hv
 
 
 ##########
