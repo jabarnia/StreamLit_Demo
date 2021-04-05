@@ -1,0 +1,8 @@
+pandas
+streamlit
+plotly
+altair
+bokeh
+requests
+matplotlib
+yfinance
